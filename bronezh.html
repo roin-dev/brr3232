@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Бронирование - Автосалон MayKen</title>
+<link rel="stylesheet" href="style3.css"/>
+</head>
+<body>
+<header>
+    <div class="header-top" style="отображение: flex; выравнивание элементов по центру; отступ: 10 пикселей;">
+         <img src="logooo2.png" alt="Логотип MayKen" style="высота:60 пикселей; правое поле:20 пикселей;">
+    <nav class="navbar">
+        <ul class="menu-list">
+            <li class="menu-item"><a href="%D0%A1%D0%B0%D0%B9%D1%82.html">Главная</a></li>
+            <li class="menu-item"><a href="%D0%9E%D1%82%D0%B7%D1%8B%D0%B2%D1%8B.html">Отзывы</a></li>
+            <li class="menu-item"><a href="https://www.drom.ru/">Цены</a></li>
+            <li class="menu-item"><a href="https://avtomir-chery-nn.ru/?utm_medium=cpc&utm_source=yandex_s&utm_campaign=tskid108tskid_cbrid273cbrid_Chery_Y_Search_Nn_AD_Models_ALL&utm_term=---autotargeting&utm_content=cid_704923743%7Cct_type1%7Cgr_5677729887%7Cb_17413336382%7Cre_205677729887%7Ccre_0%7Cph_205677729887%7Cdrf_no%7Cmt_%7Cmk_%7Cst_search%7Cs_none%7Cp_1%7Cpt_premium%7Cdt_desktop%7Creg_47_Нижний%20Новгород&source=none&etext=2202.MybG2lLfk8Fm_UXsU2dSZ7UBvlctyDQOmulT_k1cTxtqSeMPNQ6_AwgkIg9kDDHDRb-sCgDoCckXFYIpX6ANC1_0P35jrUVwv1nPbo-t9pp4c3dkdXlkbm5lampnZnh4.88ea950b65d8727d97a9d63be505c5efda2eee2b&yclid=10277341630626791423">КОМПАНИЯ</a></li>
+            <li class="menu-item active"><a href="bronezh.html">Бронирование</a></li>
+            <li class="menu-item"><a href="#">О нас</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+
+<section>
+    <h2>Забронировать автомобиль</h2>
+    <p>Пожалуйста, заполните форму ниже, чтобы забронировать выбранный вами автомобиль.</p>
+    <form action="submit_booking.php" method="post" style="max-width:600px; margin:auto; padding:20px; border:1px solid #ccc; border-radius:10px;">
+        <label for="name">Ваше имя:</label><br>
+        <input type="text" id="name" name="name" required style="width:100%; padding:8px; margin-bottom:10px;"><br>
+        
+        <label for="phone">Телефон:</label><br>
+        <input type="tel" id="phone" name="phone" required style="width:100%; padding:8px; margin-bottom:10px;"><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required style="width:100%; padding:8px; margin-bottom:10px;"><br>
+        
+        <label for="car">Выберите модель для бронирования:</label><br>
+        <select id="car" name="car" required style="width:100%; padding:8px; margin-bottom:10px;">
+            <option value="">--Выберите модель--</option>
+            <option value="Lada Granta">Lada Granta</option>
+            <option value="Lada Vesta">Lada Vesta</option>
+            <option value="Haval Jolion">Haval Jolion</option>
+            <option value="Belgee X50">Belgee X50</option>
+            <option value="Geely Monjaro">Geely Monjaro</option>
+        </select>
+        
+        <label for="date">Желаемая дата бронирования:</label><br>
+        <input type="date" id="date" name="date" required style="width:100%; padding:8px; margin-bottom:10px;"><br>
+         <a href="%D0%A1%D0%B0%D0%B9%D1%82.html" style="display:inline-block; padding:10px 20px; background-color:#FFD700; color:white; border:none; border-radius:5px; text-decoration:none; cursor:pointer;">Отправить заявку</a>
+</form>
+</section>
+
+
+    <footer><marquee>© 2026 Автосалон "MayKen"</marquee></footer>
+</body>
+</html>

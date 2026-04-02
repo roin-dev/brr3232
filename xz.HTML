@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Бронирование - Автосалон MayKen</title>
+<link rel="stylesheet" href="style3.css"/>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <ul class="menu-list">
+            <li class="menu-item"><a href="%D0%A1%D0%B0%D0%B9%D1%82.html">Главная</a></li>
+            <li class="menu-item"><a href="%D0%9E%D1%82%D0%B7%D1%8B%D0%B2%D1%8B.html">Отзывы</a></li>
+            <li class="menu-item"><a href="https://www.drom.ru/">Цены</a></li>
+            <li class="menu-item"><a href="xz.HTML">КОМПАНИЯ</a></li>
+            <li class="menu-item active"><a href="bronezh.html">Бронирование</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h2>Забронировать автомобиль</h2>
+    <p>Пожалуйста, заполните форму ниже, чтобы забронировать выбранный вами автомобиль.</p>
+    <form action="thankyou.html" method="get" style="max-width:600px; margin:auto; padding:20px; border:1px solid #ccc; border-radius:10px;">
+        <label for="name">Ваше имя:</label><br>
+        <input type="text" id="name" name="name" required style="width:100%; padding:8px; margin-bottom:10px;"><br>
+        
+        <label for="phone">Телефон:</label><br>
+        <input type="tel" id="phone" name="phone" required style="width:100%; padding:8px; margin-bottom:10px;"><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required style="width:100%; padding:8px; margin-bottom:10px;"><br>
+        
+        <label for="car">Выберите модель для бронирования:</label><br>
+        <select id="car" name="car" required style="width:100%; padding:8px; margin-bottom:10px;">
+            <option value="">--Выберите модель--</option>
+            <option value="Lada Granta">Lada Granta</option>
+            <option value="Lada Vesta">Lada Vesta</option>
+            <option value="Haval Jolion">Haval Jolion</option>
+            <option value="Belgee X50">Belgee X50</option>
+            <option value="Geely Monjaro">Geely Monjaro</option>
+        </select>
+        
+        <label for="date">Желаемая дата бронирования:</label><br>
+        <input type="date" id="date" name="date" required style="width:100%; padding:8px; margin-bottom:10px;"><br>
+        
+        <button type="submit" style="display:inline-block; padding:10px 20px; background-color:#FFD700; color:white; border:none; border-radius:5px; cursor:pointer;">Отправить заявку</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Автосалон "MayKen"</p>
+</footer>
+</body>
+</html>
